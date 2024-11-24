@@ -244,7 +244,7 @@ if __name__ == '__main__':
 # Animate function (the simple way, make sure the outpath is set to a folder and then use any gif-making app to animate)
 
 def animateIt(n):
-    outpath = "C:/Users/Ronal/Downloads/OAMSoftImplementation/basedata"
+    outpath = "yourpath/path"
     for i in range(0, n, 1):
         plt.set_cmap('jet')
         plt.imshow(np.flipud(np.angle(lgoam(i, 1, theta_ex, rho_ex))))
