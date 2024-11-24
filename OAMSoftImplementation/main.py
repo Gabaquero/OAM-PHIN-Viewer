@@ -219,7 +219,7 @@ if __name__ == '__main__':
 # cv.waitKey(0)
 
 
-# # Oam mode AI image classifier (completely image based) DOESN'T WORK I DON'T KNOW WHY I WANNA CRY
+# # Oam mode AI image classifier (completely image based) DOESN'T WORK
 # # Training
 # model_trainer = ClassificationModelTrainer()
 # model_trainer.setModelTypeAsResNet50()
